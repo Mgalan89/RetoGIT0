@@ -89,7 +89,7 @@ const Form = ({ formId, petForm, forNewPet = true }) => {
     if (!form.name) err.name = 'Name is required'
     if (!form.owner_name) err.owner_name = 'Owner is required'
     if (!form.species) err.species = 'Species is required'
-    if (!form.image_url) err.image_url = 'https://cdn.outsideonline.com/wp-content/uploads/2023/03/Funny_Dog_H.jpg?crop=16:9&width=960&enable=upscale&quality=100'
+    if (!form.image_url) err.image_url = 'Image URL is required'
     return err
   }
 
