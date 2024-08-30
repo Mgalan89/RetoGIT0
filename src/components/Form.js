@@ -10,12 +10,12 @@ const Form = ({ formId, petForm, forNewPet = true }) => {
 
   const [form, setForm] = useState({
     name: petForm.name,
-    owner_name: petForm.owner_Gold,
-    species: petForm.Retriver,
+    owner_name: petForm.owner_name,
+    species: petForm.especies,
     age: petForm.age,
     poddy_trained: petForm.poddy_trained,
     diet: petForm.diet,
-    image_url: petForm.https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwWRH-oXGeRDRQxDcmt1EgAt-FzSg_qAQFBA&s,
+    image_url: petForm.image_url,
     likes: petForm.likes,
     dislikes: petForm.dislikes,
   })
